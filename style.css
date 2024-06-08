@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Playfair";
+}
+
+header {
+    background-color: black;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%; /* Уменьшение боковых отступов */
+    justify-content: space-between;
+}
+
+header a {
+    margin-right: 25px;
+    font-weight: 50;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+main {
+    background-color: #000000;
+}
+
+.banner {
+    background-image: url(images/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 5%;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px; /* Максимальная ширина контейнера */
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07071d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 420px;
+}
+
+.card-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.41);
+    margin: 0;
+}
+
+.card-button {
+    background-color: #651514;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #3B1017;
+}
+
+.card-image {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer{
+    background-color:rgb(41, 40, 40);
+      padding:10px 0;
+       text-align:center; 
+       color:rgba(255, 255, 255, 0.659);
+}
+
